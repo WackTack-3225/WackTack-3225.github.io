@@ -1,25 +1,27 @@
-/* Container limited to 60% width and centered */
-.container {
+body {
+    /* font-family: Arial, sans-serif; */
     max-width: 60%;
     margin: 0 auto;
     padding: 0 1rem;
-  }
+    /* background-color: #f4f4f4; */
+    /* color: #333; */
+    /* line-height: 1.6; */
+    }
   
 /* Default navigation bar styling */
 .navbar {
-display: flex;
-list-style: none;
-padding: 0;
-margin: 0;
-}
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
 
 /* Default dropdown nav styling (initially hidden) */
 .nav-dropdown {
-display: none;
-}
+    display: none; 
+    }
 
-/* Media query: when viewport width is 600px or less,
-    hide the full nav bar and show the dropdown */
+/* Media query: when viewport width is 600px or less, hide the full nav bar and show the dropdown */
 @media screen and (max-width: 600px) {
 .navbar {
     display: none;
@@ -30,15 +32,7 @@ display: none;
 }
 }
 
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-    }
+
 
 /* Header */
 header {
